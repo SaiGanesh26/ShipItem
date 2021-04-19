@@ -1,0 +1,125 @@
+.register-photo {
+    background: #f1f7fc;
+    /*padding: 80px 0*/
+    height: 100%;
+    width: 100%;
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    height: 60%;
+    width: 50%;
+    background: url("https://in-info-web4.informatics.iupui.edu/~saivuppa/project/logo.jfif");
+    background-size: cover
+}
+
+.register-photo .form-container {
+    display: table;
+    /*max-width: 900px;
+    width: 90%;*/
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    /*width: 400px;*/
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+
+}
+
+@media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.register-photo form .form-control1 {
+    background: transparent;
+    border:1px solid #dfe7f1;
+    /*border-bottom: 1px solid #dfe7f1;*/
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.register-photo form .form-control2 {
+    background: transparent;
+    border: 1px solid #dfe7f1;
+    float: left;
+    /*border-bottom: 1px solid #dfe7f1;*/
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.register-photo form .btn-primary {
+    background: green;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+    background: green
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+}
+
+/*sample*/
+/*
+.form-container{
+ width: 50px;
+ border: 3px solid red;
+}
+
+.form-container .image-holder{
+    border: 1px solid red;
+    width: 80;
+}*/
